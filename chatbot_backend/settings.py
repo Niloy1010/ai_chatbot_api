@@ -26,8 +26,6 @@ CORS_ALLOWED_ORIGINS = os.getenv('CORS_ALLOWED_ORIGINS', '').split(',')
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-pogrbbzhic(hwdc2o0fd0-++5+x#y_=4y#ss$4v%9g3@5141#e'
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
 
 # Application definition
 
